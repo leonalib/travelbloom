@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | TravelBloom</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="travel_recommendation.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="travel_recommendation.html">✦ TravelBloom</a><nav aria-label="Main navigation"><a href="travel_recommendation.html" aria-current="page">Home</a><a href="about_us.html">About Us</a><a href="contact_us.html">Contact Us</a></nav><form id="search" role="search"><label class="sr-only" for="query">Destination or keyword</label><input id="query" type="search" placeholder="Destination or keyword" required><button>Search</button><button id="clear" type="button">Clear</button></form></header>
+  <main class="home"><section class="hero"><h1>Find your next destination</h1><p>Explore coastal escapes, historic temples, and cities shaped by centuries of culture. Find a place that makes you want to go.</p><button id="book" type="button">Book Now</button><div class="social" aria-label="Social media"><a href="https://www.instagram.com/">Instagram</a><a href="https://www.youtube.com/">YouTube</a></div></section><section id="recommendations" aria-labelledby="results-heading" hidden><h2 id="results-heading">Recommendations</h2><p id="status" role="status"></p><div id="cards"></div></section></main>
+</body>
+</html>

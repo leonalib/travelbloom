@@ -1,0 +1,24 @@
+{
+  "countries": [
+    {"name":"Australia","cities":[
+      {"name":"Sydney, Australia","imageUrl":"https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=900","description":"Walk the harbor foreshore for views of the Opera House and Harbour Bridge."},
+      {"name":"Melbourne, Australia","imageUrl":"https://images.unsplash.com/photo-1514395462725-fb4566210144?w=900","description":"Explore neighborhood cafés, galleries, and street art in Melbourne’s laneways."}
+    ]},
+    {"name":"Japan","cities":[
+      {"name":"Tokyo, Japan","imageUrl":"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=900","description":"Follow Tokyo’s rail lines from busy shopping streets to quiet neighborhood shrines."},
+      {"name":"Kyoto, Japan","imageUrl":"https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=900","description":"Discover temple gardens and traditional teahouses in Japan’s former capital."}
+    ]},
+    {"name":"Brazil","cities":[
+      {"name":"Rio de Janeiro, Brazil","imageUrl":"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=900","description":"Ride up Sugarloaf Mountain for a view of the city and the surrounding bays."},
+      {"name":"São Paulo, Brazil","imageUrl":"https://images.unsplash.com/photo-1543059080-f9b1272213d5?w=900","description":"Explore market stalls and museums in Brazil’s largest city."}
+    ]}
+  ],
+  "temples": [
+    {"name":"Angkor Wat, Cambodia","imageUrl":"https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=900","description":"See the Khmer temple’s carved galleries and five towers near Siem Reap."},
+    {"name":"Taj Mahal, India","imageUrl":"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=900","description":"Visit the Mughal garden complex in Agra and see its white marble mausoleum."}
+  ],
+  "beaches": [
+    {"name":"Bora Bora, French Polynesia","imageUrl":"https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=900","description":"Paddle across a turquoise lagoon and look back toward Mount Otemanu."},
+    {"name":"Copacabana Beach, Brazil","imageUrl":"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=900","description":"Follow Copacabana’s wave-patterned promenade along Rio’s Atlantic coast."}
+  ]
+}
