@@ -58,7 +58,7 @@ if (search) {
     cards.replaceChildren();
     status.textContent = 'Finding destinations…';
 
-    dataPromise ??= fetch('./travel_recommendation_api.json')
+    dataPromise ??= fetch('./travel_recommendation_api.json?v=2')
       .then(response => {
         if (!response.ok) throw new Error('Destination data unavailable');
         return response.json();
