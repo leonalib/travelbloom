@@ -31,6 +31,12 @@ function buildCard(place) {
   title.textContent = place.name;
   description.textContent = place.description;
   card.append(image, title, description);
+  if (place.imageUrl === './angkor-wat.jpg') {
+    const credit = document.createElement('a');
+    credit.href = 'https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg';
+    credit.textContent = 'Photo: Bjørn Christian Tørrissen (CC BY-SA 3.0)';
+    card.append(credit);
+  }
   return card;
 }
 
