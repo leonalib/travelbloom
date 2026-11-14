@@ -31,12 +31,6 @@ function buildCard(place) {
   title.textContent = place.name;
   description.textContent = place.description;
   card.append(image, title, description);
-  if (place.imageUrl === './angkor-wat.jpg') {
-    const credit = document.createElement('a');
-    credit.href = 'https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg';
-    credit.textContent = 'Photo: Bjørn Christian Tørrissen (CC BY-SA 3.0)';
-    card.append(credit);
-  }
   return card;
 }
 
@@ -58,7 +52,7 @@ if (search) {
     cards.replaceChildren();
     status.textContent = 'Finding destinations…';
 
-    dataPromise ??= fetch('./travel_recommendation_api.json?v=2')
+    dataPromise ??= fetch('./travel_recommendation_api.json')
       .then(response => {
         if (!response.ok) throw new Error('Destination data unavailable');
         return response.json();

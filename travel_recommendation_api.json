@@ -14,7 +14,7 @@
     ]}
   ],
   "temples": [
-    {"name":"Angkor Wat, Cambodia","imageUrl":"./angkor-wat.jpg","description":"See the Khmer temple’s carved galleries and five towers near Siem Reap."},
+    {"name":"Angkor Wat, Cambodia","imageUrl":"https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=900","description":"See the Khmer temple’s carved galleries and five towers near Siem Reap."},
     {"name":"Taj Mahal, India","imageUrl":"https://images.unsplash.com/photo-1564507592333-c60657eea523?w=900","description":"Visit the Mughal garden complex in Agra and see its white marble mausoleum."}
   ],
   "beaches": [
